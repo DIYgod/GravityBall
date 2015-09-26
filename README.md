@@ -12,15 +12,15 @@ https://www.anotherhome.net/file/balls/
 
 The following HTML structure is used for GravityBall:
 
-`
+```
     <div id="gravity-ball"></div>
     <!-- ... -->
     <script src="js/ball.js"></script>
-`
+```
 
 And this is how GravityBalll is initialized in JS:
 
-`
+```
     var balls = new Ball({
         num: 50,
         minWidth: 0,
@@ -37,13 +37,13 @@ And this is how GravityBalll is initialized in JS:
         rub: 0.8
     });
     balls.move();
-`
+```
 
 ## Options
 
 The following options are available:
 
-`
+```
     num: 50,
     minWidth: 0,
     maxWidth: 200,
@@ -57,15 +57,15 @@ The following options are available:
     minVy: -80,
     maxVy: 80,
     rub: 0.8     // the coefficient of friction
-`
+```
 
 ## API
 
-`
+```
     balls.draw();    // draw balls
     balls.move();    // balls move
     balls.stop();    // move stop
-`
+```
 
 ## LICENSE
 
