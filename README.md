@@ -1,8 +1,11 @@
 # GravityBall
 
-UI组件 -- 重力小球
+[![npm](https://img.shields.io/npm/v/gravityball.svg)](https://www.npmjs.com/package/gravityball)
+[![npm](https://img.shields.io/npm/l/gravityball.svg)](https://www.npmjs.com/package/gravityball)
+[![npm](https://img.shields.io/npm/dt/gravityball.svg)](https://www.npmjs.com/package/gravityball)
+[![GitHub issues](https://img.shields.io/github/issues/DIYgod/GravityBall.svg)](https://github.com/DIYgod/GravityBall/issues)
 
-----------
+UI组件 -- 重力小球
 
 ## Demo
 
