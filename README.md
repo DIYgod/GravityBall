@@ -1,17 +1,22 @@
 # GravityBall
 
-[![npm](https://img.shields.io/npm/v/gravityball.svg)](https://www.npmjs.com/package/gravityball)
-[![npm](https://img.shields.io/npm/l/gravityball.svg)](https://www.npmjs.com/package/gravityball)
-[![npm](https://img.shields.io/npm/dt/gravityball.svg)](https://www.npmjs.com/package/gravityball)
-[![GitHub issues](https://img.shields.io/github/issues/DIYgod/GravityBall.svg)](https://github.com/DIYgod/GravityBall/issues)
+[![npm](https://img.shields.io/npm/v/gravityball.svg?style=flat-square)](https://www.npmjs.com/package/gravityball)
+[![npm](https://img.shields.io/npm/l/gravityball.svg?style=flat-square)](https://www.npmjs.com/package/gravityball)
+[![npm](https://img.shields.io/npm/dt/gravityball.svg?style=flat-square)](https://www.npmjs.com/package/gravityball)
 
 UI组件 -- 重力小球
 
-## Demo
+## Introduction
 
-https://www.anotherhome.net/file/balls/
+[Demo](https://www.anotherhome.net/file/balls/)
 
-## How it works
+## Install
+
+```
+npm install gravityball
+```
+
+## Usage
 
 The following HTML structure is used for GravityBall:
 
@@ -42,8 +47,6 @@ And this is how GravityBalll is initialized in JS:
     balls.move();
 ```
 
-## Options
-
 The following options are available:
 
 ```
@@ -62,7 +65,7 @@ The following options are available:
     rub: 0.8     // the coefficient of friction
 ```
 
-## API
+API
 
 ```
     balls.draw();    // draw balls
